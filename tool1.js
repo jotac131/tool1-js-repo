@@ -39,7 +39,6 @@
 
 /**
  * @name createOptions - creates an options tab in the sidebar in FCResearch
- * @author - mojordaq
  * @param {array} options - array of the options' names in camelCase
  * @param {function} callback - function to run when a switch is toggled. gets 2 parameters: setting name, setting value
  * @param {element} elem - element to append the settings to
