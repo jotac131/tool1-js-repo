@@ -2,10 +2,9 @@
 // @name         jstools
 // @version      1
 // @description  description
-// @author       mojordaq
+// @author       Juan Flores | qjuflore
 // @match        http://fcresearch-na.aka.amazon.com/IAH1/results?s=csXPFQSF3QM
-// @require      https://drive-render.corp.amazon.com/view/mojordaq@/js%20src%20files/jquery-3.6.0.js
-// @require      https://drive-render.corp.amazon.com/view/mojordaq@/js%20src%20files/jstools.js
+
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
 // @grant        GM_setValue
