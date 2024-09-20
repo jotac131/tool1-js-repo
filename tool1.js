@@ -39,6 +39,7 @@
 
 /**
  * @name createOptions - creates an options tab in the sidebar in FCResearch
+ * @author       Juan Flores | qjuflore
  * @param {array} options - array of the options' names in camelCase
  * @param {function} callback - function to run when a switch is toggled. gets 2 parameters: setting name, setting value
  * @param {element} elem - element to append the settings to
@@ -241,7 +242,7 @@ input:checked + .slider:before {
 
 /**
  * @name waitForKeyElements - wait until the css selected element exists then passes it to a callback function
- * @author - mojordaq
+ * @author       Juan Flores | qjuflore
  * @param {string} query - jquery selector for element to find
  * @param {function} callback - function that the found element is passed to
  * @param {boolean} stopAfterFound - whether to stop after finding the element
@@ -276,7 +277,7 @@ function waitForKeyElements(query, callback, stopAfterFound, element) {
 
 /**
  * @name createElement - creates an HTML element
- * @author - mojordaq
+ * @author       Juan Flores | qjuflore
  * @param {string} tag - HTML element tag to create, defaults to "span"
  * @param {object} data - object with data tags to set in the element, defaults to an empty Object ({})
  */
@@ -316,7 +317,7 @@ window.Element.prototype.add = function() {
 
 /**
  * @name getCookie - gets a cookie with a given name
- * @author - mojordaq
+ * @author       Juan Flores | qjuflore
  * @param {string} str - cookie name to get
  */
 function getCookie(str) {
@@ -335,7 +336,7 @@ function getCookie(str) {
 
 /**
  * @name checkForScriptUpdate - checks for a script update and opens page if one is available
- * @author - mojordaq
+ * @author       Juan Flores | qjuflore
  */
 function checkForScriptUpdate() {
     var updateURL = GM_info.scriptMetaStr.split("@updateURL")[1].split("\n")[0].trim();
@@ -354,7 +355,7 @@ function checkForScriptUpdate() {
 
 /**
  * @name tabColor - changes the favicon for the tab to any valid CSS color
- * @author - mojordaq
+ * @author       Juan Flores | qjuflore
  * @param {string} color - CSS color
  */
 function tabColor(color) {
