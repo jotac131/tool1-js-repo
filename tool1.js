@@ -3,7 +3,29 @@
 // @version      1
 // @description  description
 // @author       Juan Flores | qjuflore
-// @match        http://fcresearch-na.aka.amazon.com/IAH1/results?s=csXPFQSF3QM
+// North America (na)
+// @match        https://fcresearch-na.aka.amazon.com/*/results?s=*
+// @match        http://fcresearch-na.aka.amazon.com/*/results?s=*
+// @match        https://aft-sherlock-service-na.amazon.com/*/results?s=*
+// @match        http://aft-sherlock-service-na.amazon.com/*/results?s=*
+
+// Europe (eu)
+// @match        https://fcresearch-eu.aka.amazon.com/*/results?s=*
+// @match        http://fcresearch-eu.aka.amazon.com/*/results?s=*
+// @match        https://aft-sherlock-service-eu.amazon.com/*/results?s=*
+// @match        http://aft-sherlock-service-eu.amazon.com/*/results?s=*
+
+// Far East (fe)
+// @match        https://fcresearch-fe.aka.amazon.com/*/results?s=*
+// @match        http://fcresearch-fe.aka.amazon.com/*/results?s=*
+// @match        https://aft-sherlock-service-fe.amazon.com/*/results?s=*
+// @match        http://aft-sherlock-service-fe.amazon.com/*/results?s=*
+
+// China (cn)
+// @match        https://fcresearch-cn.aka.amazon.com/*/results?s=*
+// @match        http://fcresearch-cn.aka.amazon.com/*/results?s=*
+// @match        https://aft-sherlock-service-cn.amazon.com/*/results?s=*
+// @match        http://aft-sherlock-service-cn.amazon.com/*/results?s=*
 
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
